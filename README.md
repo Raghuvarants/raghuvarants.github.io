@@ -1,2 +1,2 @@
-# kschuler.github.io
+# raghuvarants.github.io
 My personal website
