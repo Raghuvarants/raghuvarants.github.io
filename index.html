@@ -17,6 +17,22 @@
       color: white;
       padding: 2rem;
       text-align: center;
+      position: relative;
+    }
+    .social-links {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+    .social-links a {
+      margin-left: 1rem;
+      color: white;
+      text-decoration: none;
+    }
+    .social-links img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
     }
     main {
       padding: 2rem;
@@ -47,8 +63,16 @@
 </head>
 <body>
   <header>
-    <h1>Your Name</h1>
-    <p>Senior Solution Consultant | Enterprise Software Specialist</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/your-profile" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/yourusername" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+      </a>
+    </div>
+    <h1>T.S.Raghuvaran</h1>
+    <p> Director Solution Consulting </p>
   </header>
   <main>
     <section>
@@ -71,8 +95,6 @@
     <section>
       <h2>Contact</h2>
       <p>Email: your.email@example.com</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
-      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
     </section>
   </main>
   <footer>
